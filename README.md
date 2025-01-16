@@ -14,3 +14,5 @@ A Working Group is like a Study Group, but instead of preparing to pass an exam,
 1. Codify & automate
 2. Learn in public
 3. Non-event
+4. Less theory, more practice
+5. Pivot when necessary
