@@ -22,6 +22,12 @@ Here are the activities that participants can participate in.
 
 It is important that these are defined because of the asynchronous cross-organization collaborative learning nature of the WG.
 
+Central to the communication structure of these activities is the Ideas board which comprises of 3 pools denominating each stage of a work/learn/research item:
+
+* Ideas Pool
+* Research Pool
+* Presented
+
 ### Add new ideas
 
 Ideas can be added to the Ideas pool. 
@@ -56,32 +62,71 @@ sequenceDiagram
 
 \* This (dotted sequence) is not available yet, follow [this ticket on GitHub Projects for updates](https://github.com/orgs/apacgps/projects/9/views/1?pane=issue&itemId=94341940)
 
-### Discuss an idea
+### Discuss an idea/research
 
-Asynchronously discuss ideas on Discord:
+Ideas can be discussed asynchronously on Discord (start a thread with reference/link to the Idea item on the board):
 
 ```mermaid
 sequenceDiagram
     participant P as Participant
     participant D as Discord channel
-    participant G as Group
-    participant GH as GitHub repository
+    participant G as Group members
 
     P-->>D: Idea thread started on Discord & group notified*
     D->>G: Group members auto-notified of async discussion 
     G->>D: Group members and participants discuss idea on Discord
-    P->>GH: Participant working on idea pushes Work In Progress to GitHub repository (see note below on how to push)
-     
 ```
 
-\* Participants starting an idea, please kindly do this manually until [this ticket on GitHub Projects is done](https://github.com/orgs/apacgps/projects/9/views/1?pane=issue&itemId=94341940)
+Participants are encouraged to asynchronously discuss an idea on GitHub. It is recommended that Participants fork the main aipwg repository and add notes to the fork. Pull requests to the main branch can be created to start a discussion.
 
-Ideas can also be discussed in monthly meetings
+```mermaid
+sequenceDiagram
+    participant P as Participant
+    participant M as Main branch
+    participant F as Fork
+    participant G as Group members
+
+    P->>M: Participant creates a fork from the main branch
+    M->>F: Fork created
+    P->>F: Participant add research notes / code, etc. to fork
+    P->>M: Participant creates a pull request from fork to the main branch
+    F->>M: Pull request
+    M->>G: Notify Group (watchers and specified reviewers)
+    G->>M: Group provides feedback/comment in pull request
+```
+
+Lastly, ideas can also be discussed in monthly meetings.
 
 ### Present/demo research 
 
-At monthly meetings
+When ideas are sufficiently researched, it can be presented at the monthly meeting. 
+
+Once presented, the item should be then be moved to the Presented swimlane in the board.
+
+Participant can merge / commit any remaining notes / best-practices / code, etc. to the main branch.
+
+```mermaid
+sequenceDiagram
+    participant P as Participant
+    participant G as Group
+    participant R as Research Pool
+    participant PR as Presented
+
+    P->>G: Present learnings 
+    P->>R: Move item
+    R->>PR: Item marked as presented
+
+```
+
+Presented ideas can span newer ideas, but those should be new items added to the Ideas pool to allow ideas and research to come to a certain conclusion.
 
 ## Chapters
 
 * Chapter 1 (2025 CYH1): [Content Review for AI](content-review/README.md)
+
+## Working Group 
+
+Participants can opt to work on the continuous improvement of the Working Group as well, i.e. reusable tools, libraries that can be re-used across chapters, etc.
+
+The working group backlog can be found [here](https://github.com/orgs/apacgps/projects/9/views/1).
+
