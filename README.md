@@ -16,6 +16,14 @@ A Working Group (WG) is like a Study Group, but instead of preparing to pass an 
 4. Less theory, more practice
 5. Pivot when necessary
 
+## Ground rules
+
+* Pro-actively participate in ideation, research & discussions whenever possible
+* Adhere to ethical principals in AI development including fairness, transparency, accountability and respect for user privacy
+* Encourage continuous learning and improvement
+* Early pivoting of group’s topic of focus (before 3rd meeting) is OK based on general consensus of  working group participants
+* Foster an environment where all participants are respected & feel comfortable to share their ideas, concerns and feedback
+
 ## How it works
 
 Here are the activities that participants can participate in.
@@ -95,11 +103,11 @@ sequenceDiagram
     G->>M: Group provides feedback/comment in pull request
 ```
 
-Lastly, ideas can also be discussed in monthly meetings.
+Lastly, ideas can also be discussed in monthly meetup.
 
 ### Present/demo research 
 
-When ideas are sufficiently researched, it can be presented at the monthly meeting. 
+When ideas are sufficiently researched, it can be presented at the monthly meetup. 
 
 Once presented, the item should be then be moved to the Presented swimlane in the board.
 
@@ -124,9 +132,8 @@ Presented ideas can span newer ideas, but those should be new items added to the
 
 * Chapter 1 (2025 CYH1): [Content Review for AI](content-review/README.md)
 
-## Working Group 
+## Working Group meta improvements
 
 Participants can opt to work on the continuous improvement of the Working Group as well, i.e. reusable tools, libraries that can be re-used across chapters, etc.
 
 The working group backlog can be found [here](https://github.com/orgs/apacgps/projects/9/views/1).
-
