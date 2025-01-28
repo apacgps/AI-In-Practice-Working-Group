@@ -130,7 +130,7 @@ Presented ideas can span newer ideas, but those should be new items added to the
 
 ## Chapters
 
-* Chapter 1 (2025 CYH1): [Content Review for AI](content-review/README.md)
+* Chapter 1 (2025 CYH1): [Content Review with AI](content-review/README.md)
 
 ## Working Group meta improvements
 
