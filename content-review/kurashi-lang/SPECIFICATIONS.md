@@ -2,11 +2,11 @@
 
 Kurashi is a declarative language designed to express goals, weights, achievements, priorities, activities and artifacts. It extends Markdown to include these elements.
 
-Kurashi can be used to create goal documents that can be read as-is in plaintext or viewed as rich text through a Markdown viewer.
+Kurashi can be used to create goal documents that can be read as-is in plaintext or viewed as rich text through a Markdown viewer (sample (here)[base_example.md]).
 
 Kurashi is also useful when used with tools such as markmap to produce a mindmap to visualize how to achieve the goals. 
 
-> Mindmap visualization placeholder
+![alt text](image.png)
 
 It can also be used in conjunction with GitHub Copilot and a timeline visualizer such as markwhen. For example, the following prompt can be used to obtain all of the time elements from the goal declaration:
 

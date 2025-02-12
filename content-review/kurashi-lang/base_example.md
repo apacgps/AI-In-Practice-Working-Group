@@ -8,6 +8,8 @@
 
 2025-01-18: Activity that contributes to subgoal #tag
 
+2025-01-22 / 2026-10-24: Post-activity engagement range
+
 * Artifact 1
 * [Artifact 2](https://link_to_artifact)
 * Artifact 3
