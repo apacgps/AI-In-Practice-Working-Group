@@ -4,7 +4,7 @@
 
 2025-03-08: A single activity
 
-## Another subgoal (A: 20%)
+## Another subgoal (A: 20%, X: SomeValue)
 
 2025-01-18: Activity that contributes to subgoal #tag
 
